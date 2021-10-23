@@ -10,7 +10,7 @@ int main()
 	cout << "max=";
 	cin >> max;
 	cout << "step=";
-	cin >> step;
+	cin >> step;//comment
 	do {
 		
 				y = pow(sin(min), 2) + 2 * cos(min) + 3;
