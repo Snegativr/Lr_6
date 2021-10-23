@@ -11,10 +11,11 @@ int main()
 	cin >> max;
 	cout << "step=";
 	cin >> step;
-	while (min <= max) {
+	do {
+		
 				y = pow(sin(min), 2) + 2 * cos(min) + 3;
 		cout <<setw(10)<<"y=" << y << setw(10) <<"x="<< min << "\n";
 		min += step;
 
-	}
+	} while (min <= max);
 }
